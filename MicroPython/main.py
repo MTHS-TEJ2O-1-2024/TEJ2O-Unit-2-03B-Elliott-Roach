@@ -1,10 +1,19 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+Created by: Elliott
+Created on: Sep 2024
+This module is a Micro:bit MicroPython program calculats area and primiter
 """
 
 from microbit import *
 
+display.clear()
 
-display.scroll("Hello, World!")
+
+
+display.scroll("Area =" + ( 5 * 3 ))
+
+
+display.clear()
+
+
+display.scroll('Primiter =' + ( 2 * (2 + 3)))
